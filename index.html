@@ -6,7 +6,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono|Megrim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono|Megrim|Quicksand" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
@@ -58,7 +58,7 @@
           </div>  
         </div>
         <div class="modal-footer">
-          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agregar</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="boton-agregar">Agregar</a>
         </div>
       </div>
        <!-- FINALIZA MODAL -->
@@ -75,7 +75,28 @@
         </div>
       </div>
        <!-- FINALIZA BOTÓN PARA AGREGAR CONTACTO -->
-   
+    
+      <!-- INICIAN TARJETAS DE CONTACTO -->
+        <div class="col s12 m7">
+            <p class="header" id="nombre-contacto">Contacto</p>
+            <div class="card horizontal">
+<!--
+              <div class="card-image">
+                <img src="assets/img/contact.png">
+              </div>
+-->
+              <div class="card-stacked">
+                <div class="card-content" id="texto-contacto">
+                  <p class="texto-tarjeta-nombre"> </p>
+                  <p class="texto-tarjeta-telefono"><i class="material-icons">perm_identity</i> </p>
+                  <p class="texto-tarjeta-telefono"><i class="material-icons">phone</i> </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- FINALIZAN TARJETAS DE CONTACTO -->
+    
+    
     
    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
    <script type="text/javascript" src="assets/js/materialize.min.js"></script>

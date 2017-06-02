@@ -24,3 +24,17 @@ h5 {
     color: black; 
 }
 
+#nombre-contacto {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+#texto-contacto {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
+
+.card-image > img {
+    width: 20%; 
+    height: 20%;
+}
