@@ -1,0 +1,13 @@
+nav .input-field {
+    width: 30%;
+}
+
+.input-field input[type=search]:focus {
+    background-color: #ee6e73;
+    color: white; 
+}
+
+.brand-logo {
+    font-family: 'Space Mono', monospace;
+    margin-left: 2%;
+}
