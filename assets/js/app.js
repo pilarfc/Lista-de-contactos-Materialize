@@ -20,10 +20,8 @@ var Obtenercontacto = function ($nombre, $telefono) {
     var $inputTelefono = $(".textoTelefono"); 
     var $telefono = $inputTelefono.val();
     
-    this.$nombre = $nombre = $inputNombre.val(); 
-    console.log($nombre);
+    this.$nombre = $inputNombre.val(); 
     this.$telefono = $inputTelefono.val(); 
-    console.log($telefono)
     
 }
 
