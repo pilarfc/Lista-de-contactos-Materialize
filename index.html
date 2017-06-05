@@ -34,10 +34,9 @@
    
       <!-- CONTADOR -->
    
-       <h5 class="center">Número de contactos:</h5>
- 
-      <p></p>
-      
+      <div class="center">
+       <h5>Número de contactos:</h5><p id="cero">0</p>
+     </div>
       
     <!-- INICIA MODAL -->
 
@@ -49,14 +48,14 @@
                 <div class="input-field col s12">
                   <i class="close material-icons modal-close right">close</i>
                   <i class="material-icons prefix">account_circle</i>
-                  <input id="icon_prefix" type="text" class="validate">
+                  <input id="icon_prefix" type="text" class="validate textoNombre">
                   <label for="icon_prefix">Nombre</label>
                   </div>
                 </div>
                 <div class="row">
                 <div class="input-field col s12">
                   <i class="material-icons prefix">phone</i>
-                  <input id="icon_telephone" type="tel" class="validate">
+                  <input id="icon_telephone" type="tel" class="validate textoTelefono">
                   <label for="icon_telephone">Teléfono</label>
                 </div>
               </div>
@@ -83,9 +82,9 @@
        <!-- FINALIZA BOTÓN PARA AGREGAR CONTACTO -->
     
       <!-- INICIAN TARJETAS DE CONTACTO -->
-        <div class="col s12 m7">
+        <div class="col s12 m7" id="tarjetaCompleta">
             <p class="header" id="nombre-contacto">Contacto</p>
-            <div class="card horizontal">
+            <div class="card horizontal" id="tarjetaCompleta">
               <div class="card-image">
                 <img src="assets/img/flowers.jpg">
               </div>

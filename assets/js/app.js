@@ -1,8 +1,3 @@
- 
-//Funcion para el navbar 
-
-$(".button-collapse").sideNav();
-
 
 // Función para el modal
 $(document).ready(function(){
@@ -11,3 +6,35 @@ $(document).ready(function(){
   });
 
  
+//Funcion para el navbar 
+
+$(".button-collapse").sideNav();
+
+
+// Función para imprimir 
+
+var Obtenercontacto = function ($nombre, $telefono) {
+    
+    var $inputNombre = $(".textoNombre");
+    var $nombre = $inputNombre.val(); 
+    var $inputTelefono = $(".textoTelefono"); 
+    var $telefono = $inputTelefono.val();
+    
+    this.$nombre = $nombre = $inputNombre.val(); 
+    console.log($nombre);
+    this.$telefono = $inputTelefono.val(); 
+    console.log($telefono)
+    
+}
+
+
+var crearTarjetas = function () {
+    
+    // Creando tarjetas de contacto     
+    
+    var tarjetaDeContacto = $('<div/>', {
+        
+        'id'    : 'tarjetaCompleta'
+    });
+    
+}

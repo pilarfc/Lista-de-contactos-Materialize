@@ -17,6 +17,7 @@ nav .input-field {
 
 h5 {
    font-family: 'Megrim', cursive;
+    display: inline;
 }
 
 .input-field .prefix.active {
@@ -39,4 +40,9 @@ h5 {
 
 .card.horizontal .card-image {
     max-width: 15%;
+}
+
+#cero {
+    display: inline;
+    font-family: 'Megrim', cursive;
 }
